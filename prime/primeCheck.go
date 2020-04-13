@@ -87,9 +87,9 @@ func main() {
 	for scanner.Scan() {
 		num, _ := strconv.Atoi(scanner.Text())
 		if primeGenerator.IsPrime(uint32(num)) {
-			fmt.Println(1)
+			fmt.Printf("%d\n",1)
 		} else {
-			fmt.Println(0)
+			fmt.Printf("%d\n",0)
 		}
 
 	}
